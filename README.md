@@ -1,19 +1,70 @@
-# SECURE CLOUD  STORAGE SYSTEM USING BLOCKCHAIN.
+# Getting Started with Create React App
 
-  A secure cloud storage system using blockchain technology combines the benefits of cloud storage with the security and immutability provided by blockchain. Here's an overview of how such a system might work:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
- 1.Blockchain Integration: The system leverages blockchain technology to create a decentralized and immutable ledger of transactions and data storage. Each transaction related to storing or retrieving data is recorded on the blockchain, providing transparency and accountability.
+## Available Scripts
 
-2. Decentralized Storage: Instead of relying on a central server or data center, the storage system is decentralized across a network of nodes. Each node stores encrypted fragments of the data, ensuring redundancy and resilience against data loss or unauthorized access.
+In the project directory, you can run:
 
-3. Encryption: Data stored in the cloud storage system is encrypted using strong cryptographic algorithms. Only authorized users with the appropriate decryption keys can access the data, enhancing security and privacy.
+### `yarn start`
 
-4. Smart Contracts: Smart contracts are used to automate and enforce agreements between users and the storage system. For example, smart contracts can govern access control, data sharing permissions, and payment transactions. These contracts are executed automatically based on predefined rules, eliminating the need for intermediaries and reducing the risk of human error or manipulation.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-5. Data Integrity: Blockchain technology ensures the integrity of stored data by recording a cryptographic hash of each data block on the blockchain. Any unauthorized modifications to the data will be detected because it will result in a mismatch between the stored hash and the recalculated hash.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-6.Immutable Audit Trail: Every interaction with the cloud storage system, including data uploads, downloads, and access requests, is recorded on the blockchain. This creates an immutable audit trail that can be used for compliance, accountability, and forensic purposes.
+### `yarn test`
 
-7.Tokenization and Payment: The system may utilize blockchain-based tokens as a means of payment for storage services. Users can purchase tokens and use them to pay for storage space and other services within the ecosystem. Blockchain-based payments enable faster transactions, lower fees, and greater transparency compared to traditional payment methods.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
- 8.Overall, a secure cloud storage system using blockchain technology provides users with enhanced security, privacy, and control over their data while leveraging the benefits of decentralization and immutability offered by blockchain.
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
